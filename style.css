@@ -46,21 +46,40 @@ footer {
 .logo {
   font-size: 2rem;
   margin-bottom: 16px;
+  font-weight: 900;
+}
+
+.sublogo {
+  color: var(--color-gray-500);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.person-name {
+  color: var(--color-gray-300);
+  font-weight: 700;
 }
 
 .legal {
   margin-top: auto;
+  font-weight: 400;
+  color: var(--color-gray-700);
+  font-size: 1rem;
 }
 
 .links {
   display: flex;
   gap: 64px;
+  font-size: 1rem;
 }
 
 .links h2 {
   margin-bottom: 24px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  font-weight: 700;
+  color: var(--color-gray-700)
 }
 
 .links li {
@@ -73,6 +92,8 @@ footer {
 
 .links a {
   text-decoration: none;
+  font-weight: 400;
+  color: var(--color-gray-100)
 }
 
 main {
